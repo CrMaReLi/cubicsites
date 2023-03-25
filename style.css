@@ -1,0 +1,100 @@
+.container {
+    width: 1260px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blueblocks {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 95px;
+}
+
+.blueblock1 {
+    width: 900px;
+    min-height: 122px;
+    background-color: rgb(35, 35, 116);
+}
+
+.blueblock2 {
+    width: 352px;
+    height: 122px;
+    background-color: rgb(35, 35, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textblocks {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.textblock {
+    max-width: 350px;
+}
+
+.whitetext {
+    color: white;
+    font-size: 24px;
+}
+
+.square {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(175, 175, 175);
+}
+
+.text {
+    font-size: 24px;
+    text-align: center;
+}
+
+.smalltext {
+    font-size: 12px;
+    text-align: center;
+}
+
+.gradients {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.gradient {
+    width: 565px;
+    height: 330px;
+    background: linear-gradient(to bottom, rgb(146, 146, 146), rgb(81, 92, 156));
+}
+
+.green { 
+    height: 112px;
+    background-color: rgb(74, 97, 74);
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .blueblocks {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .blueblock1 {
+        width: 100%;
+    }
+
+    .blueblock2 {
+        width: 100%;
+    }
+}
